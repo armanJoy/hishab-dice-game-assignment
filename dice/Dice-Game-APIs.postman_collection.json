@@ -1,0 +1,144 @@
+{
+	"info": {
+		"_postman_id": "ba349cc8-f8bb-4839-bae1-d07a307d4f23",
+		"name": "Dice-Game-APIs",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "24419121"
+	},
+	"item": [
+		{
+			"name": "add-player",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "session",
+						"value": "999",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"name\":\"Jawad\",\n    \"age\":19\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://127.0.0.1:8000/game/add-player",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"game",
+						"add-player"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "set-win-score",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "session",
+						"value": "999",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "900",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://127.0.0.1:8000/game/set-winning-score",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"game",
+						"set-winning-score"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "start-game",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "session",
+						"value": "999",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "http://127.0.0.1:8000/game/start-game",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"game",
+						"start-game"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "current-score",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "session",
+						"value": "999",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "http://127.0.0.1:8000/game/current-score",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"game",
+						"current-score"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

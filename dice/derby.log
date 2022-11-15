@@ -1,0 +1,13 @@
+----------------------------------------------------------------
+Sun Nov 13 22:33:14 BDT 2022:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.14.2.0 - (1828579): instance a816c00e-0184-71d6-810b-0000009f4e20 
+on database directory memory:/home/joy/Documents/Works/hishab-assignment/hishab-dice-game/dice/6190a99d-7f54-4e82-a501-4609a9aca799 with class loader jdk.internal.loader.ClassLoaders$AppClassLoader@659e0bfd 
+Loaded from file:/home/joy/.m2/repository/org/apache/derby/derby/10.14.2.0/derby-10.14.2.0.jar
+java.vendor=Oracle Corporation
+java.runtime.version=17.0.1+12-LTS-39
+user.dir=/home/joy/Documents/Works/hishab-assignment/hishab-dice-game/dice
+os.name=Linux
+os.arch=amd64
+os.version=5.4.0-128-generic
+derby.system.home=null
+Database Class Loader started - derby.database.classpath=''
